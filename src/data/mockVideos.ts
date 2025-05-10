@@ -10,7 +10,10 @@ export const mockVideos: Video[] = [
     duration: '4:15',
     views: '2.1M',
     uploadDate: '3 days ago',
-    keywordsHint: 'mountain landscape'
+    keywordsHint: 'mountain landscape',
+    uploaderName: 'Nature Explorers',
+    uploaderAvatarUrl: 'https://picsum.photos/seed/avatar1/40/40',
+    category: 'Nature',
   },
   {
     id: '2',
@@ -21,7 +24,10 @@ export const mockVideos: Video[] = [
     duration: '7:30',
     views: '1.5M',
     uploadDate: '1 week ago',
-    keywordsHint: 'coral reef'
+    keywordsHint: 'coral reef',
+    uploaderName: 'Oceanic Odyssey',
+    uploaderAvatarUrl: 'https://picsum.photos/seed/avatar2/40/40',
+    category: 'Nature',
   },
   {
     id: '3',
@@ -32,7 +38,10 @@ export const mockVideos: Video[] = [
     duration: '6:22',
     views: '980K',
     uploadDate: '2 weeks ago',
-    keywordsHint: 'ancient ruins'
+    keywordsHint: 'ancient ruins',
+    uploaderName: 'History Buffs',
+    uploaderAvatarUrl: 'https://picsum.photos/seed/avatar3/40/40',
+    category: 'Cities',
   },
   {
     id: '4',
@@ -43,7 +52,10 @@ export const mockVideos: Video[] = [
     duration: '3:50',
     views: '3.2M',
     uploadDate: '5 days ago',
-    keywordsHint: 'aurora borealis'
+    keywordsHint: 'aurora borealis',
+    uploaderName: 'Skywatchers Inc.',
+    uploaderAvatarUrl: 'https://picsum.photos/seed/avatar4/40/40',
+    category: 'Space',
   },
   {
     id: '5',
@@ -54,7 +66,10 @@ export const mockVideos: Video[] = [
     duration: '8:10',
     views: '750K',
     uploadDate: '1 month ago',
-    keywordsHint: 'rainforest canopy'
+    keywordsHint: 'rainforest canopy',
+    uploaderName: 'Jungle Trekkers',
+    uploaderAvatarUrl: 'https://picsum.photos/seed/avatar5/40/40',
+    category: 'Nature',
   },
   {
     id: '6',
@@ -65,7 +80,38 @@ export const mockVideos: Video[] = [
     duration: '5:05',
     views: '1.1M',
     uploadDate: '10 days ago',
-    keywordsHint: 'desert sunset'
+    keywordsHint: 'desert sunset',
+    uploaderName: 'Nomad Visions',
+    uploaderAvatarUrl: 'https://picsum.photos/seed/avatar6/40/40',
+    category: 'Nature',
+  },
+  {
+    id: '7',
+    title: 'Tokyo Shibuya Crossing 360°',
+    description: 'Immerse yourself in the organized chaos of one of the world\'s busiest intersections.',
+    thumbnailUrl: 'https://picsum.photos/seed/tokyo-vizzie/600/400',
+    videoUrl: 'placeholder.mp4',
+    duration: '3:12',
+    views: '1.8M',
+    uploadDate: '2 days ago',
+    keywordsHint: 'city japan',
+    uploaderName: 'Urban Lens',
+    uploaderAvatarUrl: 'https://picsum.photos/seed/avatar7/40/40',
+    category: 'Cities',
+  },
+  {
+    id: '8',
+    title: 'Abstract Digital Art Gallery 360°',
+    description: 'Explore a mind-bending gallery of digital art, where physics and imagination collide.',
+    thumbnailUrl: 'https://picsum.photos/seed/art-vizzie/600/400',
+    videoUrl: 'placeholder.mp4',
+    duration: '9:45',
+    views: '600K',
+    uploadDate: '1 month ago',
+    keywordsHint: 'abstract art',
+    uploaderName: 'Pixel Dreamers',
+    uploaderAvatarUrl: 'https://picsum.photos/seed/avatar8/40/40',
+    category: 'Art',
   },
 ];
 

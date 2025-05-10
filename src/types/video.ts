@@ -8,4 +8,7 @@ export interface Video {
   views: string; 
   uploadDate: string;
   keywordsHint?: string; // For data-ai-hint on images
+  uploaderName?: string;
+  uploaderAvatarUrl?: string;
+  category?: string; // For category tabs like "Nature", "Cities"
 }
